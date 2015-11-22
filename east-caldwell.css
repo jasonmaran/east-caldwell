@@ -1,0 +1,502 @@
+
+/*LANDING PAGE STYLE*/
+body {
+    font-family: "georgia";
+    color: red;
+	background-color: black;
+	width: 1000px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #111;
+}
+
+.index-image {
+	background-image: url("vampyr.jpg");
+	position: relative;
+	width: 1000px;
+	height: 740px;
+	margin: 0 auto;
+}
+
+.title {
+	width: 300px;
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #111;
+}
+
+
+.east-caldwell {
+	font-size: 64px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.founded {
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+.lowerright {
+	font-size: 40px;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
+.index-link {
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+}
+
+a:hover {
+	color: yellow;
+}
+
+/* NAV BAR STYLE */
+
+nav {
+	background-color: red;
+	padding: 10px 0;
+}	
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+	padding-right: 20px;
+	padding-left:  12px;
+}
+
+nav li ul {    
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 40px; 
+    width: 200px;
+    text-align: left;
+    z-index: 51;
+}
+nav li li {
+    position: relative;
+    margin: 0;
+    display: block;
+}
+nav li li ul {
+    position: absolute;
+    top: 0;
+    left: 200px; 
+    margin: 0;
+}
+
+nav a {
+    line-height: 40px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: yellow;
+}
+
+nav li li a {
+    border-bottom: solid 1px #c83232;
+    margin: 0 10px;
+    padding: 0;
+}
+nav li li:last-child a {
+    border-bottom: none;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+/* HOME STYLE*/
+
+.east-caldwell-title {
+	font-size: 64px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.home-body {
+	background-image: url("hunter2.jpg");
+	position: relative;
+	width: 1000px;
+	height: 720px;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+.poem {
+	width: 300px;
+	position: absolute;
+	top: 275px;
+	left: 650px;
+	font-size: 20px;
+	font-family: "papyrus";
+	display: none;
+
+}
+
+/* HISTORY STYLE */
+
+.history-body {
+	background-image: url("clementine.jpg");
+	position: relative;
+	width: 1000px;
+	height: 720px;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+.history-quote {
+	width: 300px;
+	position: absolute;
+	top: 25px;
+	left: 650px;
+	font-size: 20px;
+	font-family: "papyrus";
+	display: none;
+}
+
+/* FOUNDING STYLE */
+.founding {
+	width: 55%;
+	margin-left: 25%;
+}
+
+
+.founding-title {
+	text-align: center;
+	font-size: 64px;
+}
+
+.don-lope {
+	float: left;
+	margin-right: 10px;
+}
+
+/* EVENTS STYLE */
+
+.events-header {
+	font-size: 64px;
+	text-align: center;
+}
+
+.crab, .circus, .round-up, .spider {
+	width: 100%;
+	height: 350px;
+	margin-bottom: 25px;
+	border-bottom: 2px solid red;
+}
+
+.spider {
+	border-bottom: none;
+}
+
+.crab {
+	margin-top: 25px;
+}
+
+.crab-pic, .circus-pic, .round-up-pic, .spider-pic {
+	float: left;
+	margin-top: 18px;
+}
+
+.crab-story, .circus-story, .round-up-story, .spider-story {
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+
+.crab-header, .circus-header, .round-up-header, .spider-header {
+	float: left;
+    font-size: 32px;
+	text-align: center;
+	font-style:  italic;
+}
+
+
+
+/* GOVERNMENT STYLE */
+
+.government-body {
+	background-image: url("government.jpg");
+	position: relative;
+	width: 1000px;
+	height: 720px;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+.government-quote {
+	width: 250px;
+	position: absolute;
+	top: 165px;
+	left: 525px;
+	font-size: 20px;
+	font-family: "papyrus";
+	display: none;
+}
+
+/* OFFICIALS STYLE */
+.officials-header {
+	text-align: center;
+	font-size: 64px;
+}
+
+.mayor-top {
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.left-column, .right-column {
+	width: 46%;
+	float: left;
+	margin: 2%;
+	margin-top: 50px;
+}
+
+.mayor-header, .general-header, .planner-header, .priest-header, .sheriff-header{
+	text-align: center;
+	font-size: 34px;
+}
+
+.general-pic {
+	margin-left: 20px;
+}
+
+.priest-pic {
+	margin-left: 35px;
+}
+
+.planner-pic {
+	margin-top: 52px;
+	margin-left: 20px;
+}
+
+.sheriff-pic {
+	margin-top: 40px;
+	margin-left: 80px;
+}
+
+/* LAWS SYLE */
+
+.laws {
+	text-align: center;
+}
+
+.laws-header {
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+.laws-item {
+    text-align: left;
+    font-size: 26px;
+    margin-left: 25px;
+}
+
+/* TAX CODE */
+
+.tax-code {
+	width: 600px;
+	margin-left: 180px;
+}
+
+.tax-code-header {
+	font-size: 48px;
+	text-align: center;
+}
+
+/* MYSTERIES */
+
+.mysteries-body {
+	background-image: url("mysteries.jpg");
+	position: relative;
+	width: 1000px;
+	height: 720px;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+.mysteries-quote {
+	width: 600px;
+	position: absolute;
+	top: 50px;
+	left: 280px;
+	font-size: 30px;
+	font-family: "papyrus";
+	display: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+	 body {
+	    width: auto;
+     }
+     .index-image, .home-body {
+     	width: auto;
+     }	
+
+     .poem {
+     	left: 280px;
+     }
+
+     .history-quote {
+     	left: 280px;
+     }
+
+
+     .don-lope {
+     	float: none;
+     }
+
+     .settlers, .church {
+     	width: 400px;
+     }
+
+     .crab, .circus, .round-up, .spider {
+     	width: auto;
+     }
+
+     .crab, .circus, .round-up {
+     	border-bottom: none;
+     }
+
+     .crab-pic, .circus-pic, .round-up-pic, .spider-pic {
+     	margin-left: 50px;
+     }
+
+     .government-quote {
+     	left: 280px;
+     	top: 50px;
+     }
+
+     .left-column, .right-column {
+     	float: none;
+     	margin: 0 auto;
+     }
+
+     .sheriff-pic {
+     	margin: 0 auto;
+     }
+
+     .general-pic, .priest-pic, .planner-pic {
+     	margin-left: -70px;
+     }
+	
+     .tax-code {
+     	margin: 0 auto;
+     	width: auto;
+     	padding-left: 10px;
+     	padding-right: 10px;
+     }	
+
+     .mysteries-quote {
+     	position: absolute;
+     	left: 100px;
+     	font-size: 24px;
+     }
+
+ }
+
+ @media all and (max-width: 500px) {
+       
+      body {
+	    width: auto;
+     }
+      .index-image, .home-body {
+     	width: auto;
+     }	 
+
+      .poem {
+     	left: 50px;
+     }
+
+      .history-quote {
+     	left: 50px;
+     }
+      
+      .founding {
+      	width: auto;
+      	margin: 0 auto;
+     }	
+
+      .don-lope {
+     	float: none;
+     	margin-left: 20px;
+     }
+
+     .settlers, .church {
+     	width: 400px;
+     }
+     
+     .crab, .circus, .round-up, .spider {
+     	width: auto;
+     }
+     .crab, .circus, .round-up {
+     	border-bottom: none;
+     }
+     .crab-story, .circus-story, .round-up-story, .spider-story {
+     	margin-left: 20px;
+     }
+
+      .crab-pic, .circus-pic, .round-up-pic, .spider-pic {
+     	margin-left: 20px;
+     }
+
+     .government-quote {
+     	left: 50px;
+     	top: 30px;
+     }
+
+     .left-column, .right-column {
+     	float: none;
+     	margin: 0 auto;
+     }
+
+      .tax-code {
+     	margin: 0 auto;
+     	width: auto;
+     	padding-left: 10px;
+     	padding-right: 10px;
+     }	
+
+      .mysteries-quote {
+     	position: absolute;
+     	left: 50px;
+     	font-size: 20px;
+     }
+
+      .general-pic, .priest-pic, .planner-pic {
+      	margin-left: -90px;
+      }
+
+      .sheriff-pic {
+      	margin-left: -60px;
+      }
+
+ }	
+
